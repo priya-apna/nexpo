@@ -468,7 +468,7 @@ document.addEventListener('DOMContentLoaded', function () {
     spaceBetween: 24,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 1000,
       disableOnInteraction: false,
     },
     breakpoints: {
