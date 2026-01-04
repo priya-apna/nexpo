@@ -5697,9 +5697,17 @@ ul.header-links li i {
     object-fit: contain;
 }
 .homepage1-body .vl-transparent-header .vl-hero-btn .sidebar_btn-area {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end !important;
+}
+.vl-header-area .container {
+    max-width: 100% !important;
+}
+.vl-hero-btn {
+    position: fixed !important;
+    right: -10px;
+    top: 22px;
 }
 .homepage1-body .vl-transparent-header .vl-hero-btn .sidebar_btn-area .hamburger_menu {
   border: none;
