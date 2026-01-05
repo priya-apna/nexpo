@@ -14845,11 +14845,11 @@ section.regulator-main {
 }
 
 .statx-section .feature-list li {
-  margin-bottom: 10px;
-  font-weight: 500;
-  color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #333;
+    font-size: 14px;
 }
-
 .statx-section .difference-list li {
   margin-bottom: 12px;
   font-weight: 500;
