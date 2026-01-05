@@ -14855,12 +14855,13 @@ section.regulator-main {
   font-weight: 500;
   color: #444;
 }
-
 .statx-section .badge {
-  font-size: 14px;
-  padding: 8px 14px;
-  color:var(--ztc-text-text-4);
+    font-size: 14px;
+    padding: 8px 14px;
+    color: #fff;
+    background-color: #143c76 !important;
 }
+
 .statx-section .card {
     border: 1px solid rgb(53, 16, 173) !important;
 }
