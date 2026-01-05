@@ -14859,13 +14859,16 @@ section.regulator-main {
 .statx-section .badge {
   font-size: 14px;
   padding: 8px 14px;
+  color:var(--ztc-text-text-4);
 }
-
-
+.statx-section .card {
+    border: 1px solid rgb(53, 16, 173) !important;
+}
 .responder-aerso .feature-list li {
-  margin-bottom: 10px;
-  font-weight: 500;
-  color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #333;
+    font-size: 14px;
 }
 
 .responder-aerso .card {
@@ -14873,6 +14876,6 @@ section.regulator-main {
 }
 
 .responder-aerso .card img {
-  max-height: 220px;
+  max-height: 320px;
   object-fit: contain;
 }
