@@ -5705,7 +5705,7 @@ ul.header-links li i {
     max-width: 100% !important;
 }
 .vl-hero-btn {
-    position: fixed !important;
+    position: absolute !important;
     right: -10px;
     top: 22px;
 }
