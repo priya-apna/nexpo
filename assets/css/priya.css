@@ -14879,3 +14879,6 @@ section.regulator-main {
   max-height: 320px;
   object-fit: contain;
 }
+.statx-section .card h4 , .responder-aerso h4 {
+    color: #143c76 !important;
+}
