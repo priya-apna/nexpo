@@ -87,7 +87,9 @@ h5,
 h6 {
   margin-bottom: 0;
 }
-
+body{
+  overflow-x:hidden;
+}
 input, textarea {
   background: none;
   border: none;
@@ -14831,3 +14833,46 @@ section.regulator-main {
       background: #143c76;
       color: #fff;
     }
+
+    .statx-section {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+}
+
+.statx-section .image-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.statx-section .feature-list li {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+.statx-section .difference-list li {
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #444;
+}
+
+.statx-section .badge {
+  font-size: 14px;
+  padding: 8px 14px;
+}
+
+
+.responder-aerso .feature-list li {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+.responder-aerso .card {
+  border-radius: 16px;
+}
+
+.responder-aerso .card img {
+  max-height: 220px;
+  object-fit: contain;
+}
