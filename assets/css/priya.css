@@ -13130,8 +13130,10 @@ flex-wrap:wrap;
   background: #fff;
   overflow: hidden;
 }
+
 .mission-circle p {
     padding-bottom: 10px;
+    font-weight: 700;
 }
 .mission-section h2 {
     color: var(--ztc-text-text-4);
@@ -13155,17 +13157,17 @@ flex-wrap:wrap;
 
 /* CIRLCES */
 .mission-circle {
-  width: 180px;
-  height: 180px;
-  background: #d7f1f8;
-  border-radius: 50%;
-  padding: 30px;
-  text-align: center;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transition: 0.3s;
+    width: 244px;
+    height: 244px;
+    background: #d7f1f8;
+    border-radius: 50%;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s;
 }
 
 .mission-circle.dark {
