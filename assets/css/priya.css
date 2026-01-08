@@ -869,6 +869,12 @@ img {
     padding: 30px 0 30px;
   }
 }
+
+@media (max-width: 639px) {
+.vl-header-action-item button{
+   color:#143c76;
+}
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .sp5 {
     padding: 30px 0 30px;
@@ -902,6 +908,8 @@ img {
     padding: 60px 0 30px;
   }
 }
+
+
 
 .sp8 {
   padding: 100px 0 0;
