@@ -15681,84 +15681,61 @@ section.regulator-main {
     font-size:16px;
 }
 
-.proserves-section {
-  background: #fff;
+.processt-section .process-section{
+    background:#f8f9fa;
 }
 
-.proserves-section .serviceSwiper {
-  padding: 20px 5px 60px;
+.processt-section .process-box{
+    padding:20px;
 }
 
-.proserves-section .service-card {
-  position: relative;
-  background: #fff;
-  padding: 80px 30px 40px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.06);
-  overflow: hidden;
-  height: 100%;
+.processt-section .process-img{
+    width:240px;
+    height:240px;
+    margin:auto;
+    border-radius:50%;
+    border:3px solid #ff3d00;
+    position:relative;
+    overflow:hidden;
 }
 
-/* Slanted background */
-.proserves-section .service-card::before {
-  content: "";
-  position: absolute;
-  top: -60px;
-  left: -20%;
-  width: 140%;
-  height: 180px;
-  background: #f6f7fb;
-  transform: rotate(-6deg);
-  z-index: 0;
+.processt-section .process-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:50%;
 }
 
-.proserves-section .service-card * {
-  position: relative;
-  z-index: 1;
+.processt-section .process-img .icon{
+    position:absolute;
+    top:-10px;
+    left:50%;
+    transform:translateX(-50%);
+    width:50px;
+    height:50px;
+    background:#ffe5dc;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#ff3d00;
+    font-size:20px;
+    border:2px solid #ff3d00;
 }
 
-/* Icon */
-.proserves-section .icon-wrap {
-  width: 110px;
-  height: 110px;
-  background: #060f6e;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  border: 8px solid #e6e7f3;
+.processt-section .process-box h5{
+    margin-top:20px;
+    font-weight:700;
 }
 
-.proserves-section .icon-wrap i {
-  font-size: 38px;
-  color: #fff;
+.processt-section .process-box p{
+    font-size:14px;
+    color:#6c757d;
 }
 
-/* Text */
-.proserves-section .service-card p {
-  color: #666;
-  font-size: 15px;
-  line-height: 1.7;
-  margin-top: 15px;
+.processt-section .swiper-button-next,
+.processt-section .swiper-button-prev{
+    color:#ff3d00;
 }
 
-/* Button */
-.proserves-section .btn-primary-custom {
-  background: #060f6e;
-  color: #fff;
-  padding: 12px 28px;
-  font-size: 14px;
-  font-weight: 600;
-  border-radius: 0;
-}
-
-.proserves-section .btn-primary-custom:hover {
-  background: #0a168a;
-}
-
-/* Swiper arrows */
-.proserves-section .swiper-button-next,
-.proserves-section .swiper-button-prev {
-  color: #060f6e;
-}
 
