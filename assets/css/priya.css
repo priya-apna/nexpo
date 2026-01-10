@@ -15681,61 +15681,108 @@ section.regulator-main {
     font-size:16px;
 }
 
-.processt-section .process-section{
-    background:#f8f9fa;
+/* Section */
+.services-area {
+  background: #ffffff;
 }
 
-.processt-section .process-box{
-    padding:20px;
+/* Header */
+.services-area .services-tag {
+  color: #ff3b00;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
 }
 
-.processt-section .process-img{
-    width:240px;
-    height:240px;
-    margin:auto;
-    border-radius:50%;
-    border:3px solid #ff3d00;
-    position:relative;
-    overflow:hidden;
+.services-area .services-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #0b0b0b;
 }
 
-.processt-section .process-img img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    border-radius:50%;
+/* Button */
+.services-area .explore-btn {
+  background: #ff3b00;
+  color: #fff;
+  padding: 16px 32px;
+  font-weight: 700;
+  border-radius: 0;
 }
 
-.processt-section .process-img .icon{
-    position:absolute;
-    top:-10px;
-    left:50%;
-    transform:translateX(-50%);
-    width:50px;
-    height:50px;
-    background:#ffe5dc;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:#ff3d00;
-    font-size:20px;
-    border:2px solid #ff3d00;
+.services-area .explore-btn:hover {
+  background: #e33600;
+  color: #fff;
 }
 
-.processt-section .process-box h5{
-    margin-top:20px;
-    font-weight:700;
+/* Card */
+.services-area .service-card {
+  position: relative;
+  background: #ffffff;
+  padding: 90px 35px 45px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  overflow: hidden;
+  height: 100%;
 }
 
-.processt-section .process-box p{
-    font-size:14px;
-    color:#6c757d;
+/* Slanted top background */
+.services-area .service-card::before {
+  content: "";
+  position: absolute;
+  top: -65px;
+  left: -20%;
+  width: 140%;
+  height: 200px;
+  background: #f5f6fa;
+  transform: rotate(-6deg);
 }
 
-.processt-section .swiper-button-next,
-.processt-section .swiper-button-prev{
-    color:#ff3d00;
+/* Icon Circle */
+.services-area .icon-circle {
+  width: 120px;
+  height: 120px;
+  background: #04045f;
+  border-radius: 50%;
+  border: 10px solid #e3e5f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
+.services-area .icon-circle i {
+  font-size: 42px;
+  color: #ffffff;
+}
+
+/* Text */
+.services-area .service-card h4 {
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.services-area .service-card p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-top: 15px;
+}
+
+/* Read more button */
+.services-area .read-btn {
+  background: #04045f;
+  color: #fff;
+  padding: 12px 28px;
+  font-weight: 700;
+  border-radius: 0;
+  margin-top: 15px;
+}
+
+.services-area .read-btn:hover {
+  background: #060687;
+  color: #fff;
+}
 
