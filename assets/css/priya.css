@@ -15554,3 +15554,129 @@ section.regulator-main {
         display:none;
     }
 }
+
+.about-procest{
+    padding:100px 0;
+    background:#0f2c63;
+    position:relative;
+}
+
+/* CARD */
+.about-procest .about-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 20px 60px rgba(0,0,0,.15);
+}
+
+/* LEFT IMAGE */
+.about-procest .about-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* RIGHT CONTENT */
+.about-procest .about-content{
+    padding:60px;
+}
+
+.about-procest .intro{
+    font-size:13px;
+    font-weight:700;
+    color:#f6b400;
+    text-transform:uppercase;
+    position:relative;
+    display:inline-block;
+    margin-bottom:10px;
+}
+.about-procest .intro::after{
+    content:'';
+    width:50px;
+    height:2px;
+    background:#f6b400;
+    position:absolute;
+    right:-60px;
+    top:50%;
+}
+
+.about-procest .about-content h2{
+    font-size:36px;
+    font-weight:800;
+    color:#142f5f;
+    margin-bottom:15px;
+}
+
+.about-procest .about-content p{
+    color:#6c757d;
+    font-size:14px;
+}
+
+/* FEATURE BOX */
+.about-procest .feature{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+}
+
+.about-procest .feature-icon{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:20px;
+    flex-shrink:0;
+}
+.yellow{ background:#f6b400; }
+.blue{ background:#142f5f; }
+
+.about-procest .feature h6{
+    font-weight:700;
+    margin-bottom:4px;
+}
+.about-procest .feature p{
+    font-size:13px;
+}
+
+/* BUTTONS */
+.about-procest .about-actions{
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.about-procest .btn-about{
+    background:#f6b400;
+    color:#fff;
+    font-weight:600;
+    padding:12px 28px;
+    border-radius:8px;
+    border:none;
+}
+.about-procest .btn-about:hover{
+    background:#e0a700;
+}
+
+.about-procest .video-btn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#142f5f;
+    font-weight:600;
+    text-decoration:none;
+}
+.about-procest .play-icon{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    border:2px solid #f6b400;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#f6b400;
+    font-size:16px;
+}
