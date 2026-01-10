@@ -14908,7 +14908,7 @@ section.regulator-main {
     top: 30px;
     width: 120px;
     height: 85%;
-    background: #d10000;
+    background: #143c76;
     z-index: 0;
 }
 .who-we-are .image-box img {
@@ -14918,7 +14918,7 @@ section.regulator-main {
 }
 
 .who-we-are .sub-title {
-    color: #d10000;
+    color:#143c76;
     font-weight: 600;
     letter-spacing: 1px;
     display: flex;
@@ -14938,7 +14938,7 @@ section.regulator-main {
 }
 
 .who-we-are .highlight-text {
-    color: #d10000;
+    color: #143c76;
     text-decoration: underline;
     font-weight: 600;
     margin-bottom: 20px;
@@ -14957,7 +14957,7 @@ section.regulator-main {
 }
 .who-we-are .feature-icon {
     font-size: 36px;
-    color: #d10000;
+    color: #143c76;
 }
 .who-we-are .feature-box h5 {
     font-weight: 700;
@@ -14974,7 +14974,7 @@ section.regulator-main {
 }
 
 .electros .red-box {
-    background: #d10000;
+    background: #143c76;
     color: #fff;
     padding: 70px 50px;
     height: 100%;
@@ -15027,7 +15027,7 @@ section.regulator-main {
 }
 
 .electros .sub-title {
-    color: #d10000;
+    color: #143c76;
     font-weight: 600;
     letter-spacing: 1px;
     display: flex;
@@ -15053,7 +15053,7 @@ section.regulator-main {
 }
 
 .electros .progress-bar {
-    background: #d10000;
+    background: #143c76;
 }
 
 .electros.electros .call-box {
@@ -15066,7 +15066,7 @@ section.regulator-main {
 .electros .call-icon {
     width: 55px;
     height: 55px;
-    background: #d10000;
+    background: #143c76;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -15222,7 +15222,7 @@ section.regulator-main {
 .protectabouts .exp-badge span{
     font-size:48px;
     font-weight:800;
-    color:#ff3c00;
+    color:#143c76;
 }
 .protectabouts .exp-badge p{
     margin:0;
@@ -15249,7 +15249,7 @@ section.regulator-main {
 
 /* RIGHT CONTENT */
 .protectabouts .about-sub{
-    color:#ff3c00;
+    color:#143c76;
     font-weight:600;
     display:flex;
     align-items:center;
@@ -15275,20 +15275,20 @@ section.regulator-main {
     gap:10px;
 }
 .protectabouts .feature-box i{
-    color:#ff3c00;
+    color:#143c76;
     font-size:18px;
 }
 
 /* BUTTON */
 .protectabouts .btn-about{
-    background:#ff3c00;
+    background:#143c76;
     color:#fff;
     padding:14px 32px;
     border-radius:0;
     font-weight:600;
 }
 .protectabouts .btn-about:hover{
-    background:#e23400;
+    background:#143c76;
     color:#fff;
 }
 
@@ -15300,7 +15300,7 @@ section.regulator-main {
 
 /* ===== HEADER ===== */
 .process-system .process-subtitle{
-    color:#ff3c00;
+    color:#143c76;
     font-weight:600;
     display:flex;
     justify-content:center;
@@ -15327,7 +15327,7 @@ section.regulator-main {
     height:260px;
     margin:0 auto 30px;
     border-radius:50%;
-    border:2px solid #ff3c00;
+    border:2px solid #143c76;
     padding:12px;
     position:relative;
 }
@@ -15351,7 +15351,7 @@ section.regulator-main {
     display:flex;
     align-items:center;
     justify-content:center;
-    color:#ff3c00;
+    color:#143c76;
     font-size:22px;
 }
 
@@ -15361,7 +15361,7 @@ section.regulator-main {
     top:120px;
     right:-60px;
     font-size:28px;
-    color:#ff3c00;
+    color:#143c76;
 }
 
 /* Text */
@@ -15463,7 +15463,7 @@ section.regulator-main {
 /* TOP LABEL */
 .process-top{
     text-align:center;
-    color:#ff3d00;
+    color:#143c76;
     font-weight:600;
     margin-bottom:10px;
 }
@@ -15492,7 +15492,7 @@ section.regulator-main {
     border-radius:50%;
     margin:auto;
     position:relative;
-    border:2px solid #ff3d00;
+    border:2px solid #143c76;
     padding:12px;
 }
 .process-img::before{
@@ -15525,7 +15525,7 @@ section.regulator-main {
     z-index:2;
 }
 .process-icon i{
-    color:#ff3d00;
+    color:#143c76;
     font-size:22px;
 }
 
@@ -15547,7 +15547,7 @@ section.regulator-main {
     top:130px;
     right:-60px;
     font-size:35px;
-    color:#ff3d00;
+    color:#143c76;
 }
 @media(max-width:991px){
     .process-arrow{
@@ -15688,7 +15688,7 @@ section.regulator-main {
 
 /* Header */
 .services-area .services-tag {
-  color: #ff3b00;
+  color: #143c76;
   font-weight: 600;
   display: inline-flex;
   align-items: center;
@@ -15704,7 +15704,7 @@ section.regulator-main {
 
 /* Button */
 .services-area .explore-btn {
-  background: #ff3b00;
+  background: #143c76;
   color: #fff;
   padding: 16px 32px;
   font-weight: 700;
@@ -15712,7 +15712,7 @@ section.regulator-main {
 }
 
 .services-area .explore-btn:hover {
-  background: #e33600;
+  background: #143c76;
   color: #fff;
 }
 
