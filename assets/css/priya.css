@@ -14881,12 +14881,15 @@ section.statx-section {
 }
 
 /* LEFT IMAGE */
-.about-procest .about-img img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+.about-procest .about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 500px;
 }
-
+.feature-icon img{
+  filter:invert();
+}
 /* RIGHT CONTENT */
 .about-procest .about-content{
     padding:60px;
@@ -15063,7 +15066,9 @@ section.statx-section {
   position: relative;
   z-index: 2;
 }
-
+.icon-circle img {
+    filter: invert(1);
+}
 .services-area .icon-circle i {
   font-size: 42px;
   color: #ffffff;
