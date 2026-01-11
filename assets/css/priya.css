@@ -15750,3 +15750,133 @@ section.statx-section {
   color:#ffcc32;
   font-size:20px;
 }
+
+.advancing-pours .how-section{
+  background:#fbf7f3;
+  padding:90px 0;
+  border-radius:20px;
+}
+.advancing-pours .small-tag{
+  font-size:14px;
+  color:#0a5b3c;
+  font-weight:600;
+}
+.advancing-pours .main-heading{
+  font-size:42px;
+  font-weight:700;
+  line-height:1.3;
+}
+.advancing-pours .step{
+  display:flex;
+  gap:40px;
+  padding:35px 0;
+  border-top:1px solid #d9d9d9;
+}
+.advancing-pours .step:last-child{
+  border-bottom:1px solid #d9d9d9;
+}
+.advancing-pours .step-number{
+  font-size:20px;
+  font-weight:600;
+  min-width:60px;
+}
+.advancing-pours .step-title{
+  font-size:20px;
+  font-weight:600;
+}
+.advancing-pours .step-text{
+  font-size:14px;
+  color:#666;
+  max-width:420px;
+}
+.advancing-pours .right-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:20px;
+}
+
+.adving-blends .section-padding{
+  padding:100px 0;
+}
+.adving-blends .adving-blends .small-title{
+  color:#1c2fd6;
+  font-weight:600;
+  font-size:14px;
+  position:relative;
+  padding-left:40px;
+}
+.adving-blends .small-title::before{
+  content:'';
+  width:30px;
+  height:2px;
+  background:#f7c600;
+  position:absolute;
+  left:0;
+  top:50%;
+}
+.adving-blends .main-title{
+  font-size:40px;
+  font-weight:700;
+  color:#0b1c3d;
+  line-height:1.3;
+}
+.adving-blends .text-muted{
+  font-size:14px;
+}
+
+.adving-blends .image-wrapper{
+  position:relative;
+}
+.adving-blends .image-wrapper img{
+  border-radius:8px;
+}
+.adving-blends .img-large{
+  width:100%;
+}
+.adving-blends .img-small{
+  position:absolute;
+  left:-60px;
+  top:80px;
+  width:220px;
+}
+.adving-blends .experience-box{
+  position:absolute;
+  bottom:-40px;
+  left:-40px;
+  background:#fff;
+  padding:20px 25px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+.adving-blends .experience-box h2{
+  font-size:40px;
+  font-weight:700;
+  color:#1c2fd6;
+  margin:0;
+}
+.adving-blends .experience-box span{
+  font-size:13px;
+  color:#777;
+}
+
+.adving-blends .icon-box{
+  display:flex;
+  gap:15px;
+}
+.adving-blends .icon{
+  width:55px;
+  height:55px;
+  background:#f7c600;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:22px;
+}
+.adving-blends .read-btn{
+  background:#f7c600;
+  border:none;
+  padding:12px 28px;
+  border-radius:30px;
+  font-weight:600;
+}
