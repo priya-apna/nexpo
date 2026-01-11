@@ -15299,7 +15299,9 @@ section.statx-section {
 .why-choose-area .text-lg-end .icon-box {
   margin-left: auto;
 }
-
+.offer-card a.btn {
+    background-color: #143c76 !important;
+}
 /* Center image */
 
 .why-choose-area .worker-img {
@@ -15644,7 +15646,7 @@ section.statx-section {
   color:#fff;
 }
 .screening-iners .left-banner {
-  background: url("https://i.ibb.co/7GbsbXH/security-bg.jpg");
+  background: url("assets/img/all-images/hero/tower.jpg");
   background-size: cover;
   background-position: center;
   color: #000;
