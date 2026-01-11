@@ -15652,7 +15652,13 @@ section.statx-section {
   color: #000;
   backdrop-filter: brightness(0.9);
 }
-
+.camersrolls img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    object-position: top;
+    margin-top: 40px;
+}
 .screening-iners .camera-card {
   background: #f6f9fc;
   transition: 0.3s;
@@ -16026,12 +16032,12 @@ section.statx-section {
 .projection-section .project-sm{
   height:240px;
 }
-
-.about-creations{
-  padding:90px 0;
-  position:relative;
-  overflow:hidden;
+.about-creations {
+    padding: 0px 0 60px 0;
+    position: relative;
+    overflow: hidden;
 }
+
 .about-creations .about-section::after{
   content:'';
   position:absolute;
@@ -16162,10 +16168,10 @@ section.statx-section {
   bottom:25px;
   width:70px;
 }
-
 .ev-about {
-    padding: 80px 0;
+    padding: 0px 0 60px 0;
 }
+
 
 .ev-images {
     position: relative;
