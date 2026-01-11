@@ -15671,3 +15671,82 @@ section.statx-section {
   align-items:center;
   justify-content:center;
 }
+
+.staelectric .service-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.staelectric .service-box img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.staelectric .overlay-text {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.staelectric .cta-box {
+  border: 2px solid #e5e5e5;
+  padding: 25px 30px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.static-baelectric .section-padding{padding:100px 0;}
+.static-baelectric .sub-top-text{font-size:14px;color:#777;letter-spacing:1px;}
+.static-baelectric .main-title{font-size:44px;font-weight:700;}
+.static-baelectric .feature-item{display:flex;gap:20px;margin-bottom:35px;}
+.static-baelectric .feature-icon{
+  width:60px;height:60px;border-radius:50%;
+  background:#f5f5f5;display:flex;
+  align-items:center;justify-content:center;
+  font-size:22px;color:#111;
+}
+.static-baelectric .feature-item h6{font-weight:600;margin-bottom:5px;}
+.static-baelectric .feature-item p{font-size:14px;color:#777;margin:0;}
+
+.static-baelectric .img-box img{
+  border-radius:16px;
+  width:100%;
+  object-fit:cover;
+}
+.static-baelectric .img-small{height:230px;}
+.static-baelectric .img-large{height:480px;}
+
+.static-baelectric .stats-box{
+  position:absolute;
+  right:-40px;
+  top:160px;
+  background:#ffcc32;
+  padding:35px 30px;
+  border-radius:16px;
+  width:200px;
+}
+.static-baelectric .stats-box h2{font-weight:700;margin:0;}
+.static-baelectric .stats-box span{font-size:14px;}
+
+.static-baelectric .bottom-cta{
+  margin-top:50px;
+  display:flex;
+  align-items:center;
+  gap:30px;
+}
+.static-baelectric .cta-btn{
+  background:#111;color:#fff;
+  padding:14px 35px;
+  border-radius:30px;
+  text-decoration:none;
+}
+.static-baelectric .call-box i{
+  color:#ffcc32;
+  font-size:20px;
+}
