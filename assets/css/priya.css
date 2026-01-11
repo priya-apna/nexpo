@@ -14198,9 +14198,11 @@ section.statx-section {
 .statx-section .card h4 , .responder-aerso h4 {
     color: #143c76 !important;
 }
-
+.imgers-mains {
+    text-align: center;
+}
 .who-we-are {
-    padding: 100px 0;
+    padding: 60px 0;
     background: #fff;
 }
 .who-we-are .image-box {
@@ -14220,6 +14222,8 @@ section.statx-section {
     position: relative;
     z-index: 1;
     border-radius: 6px;
+    height: 770px;
+    object-fit: cover;
 }
 
 .who-we-are .sub-title {
@@ -15881,9 +15885,6 @@ section.statx-section {
   font-weight:600;
 }
 
-.about-baring{
-  padding:80px 0;
-}
 .about-baring .about-title{
   text-align:center;
   font-weight:700;
@@ -16325,12 +16326,16 @@ section.statx-section {
     display: flex;
     gap: 15px;
 }
-
+.imgers-mains img {
+    width: 100%;
+}
 .harmonicst-section .feature-icon {
     font-size: 36px;
     color: #d60000;
 }
-
+.electros {
+    margin-bottom: 60px;
+}
 .harmonicst-section .divider {
     width: 1px;
     background: #ccc;
