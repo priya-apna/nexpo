@@ -15301,11 +15301,11 @@ section.statx-section {
 }
 
 /* Center image */
-.why-choose-area .worker-img {
-  max-height: 520px;
-  object-fit: contain;
-}
 
+.why-choose-area .worker-img {
+    object-fit: cover;
+    min-height: 644px !important;
+}
 .offer-section{
     background:#f8f9fa;
 }
