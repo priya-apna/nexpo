@@ -17090,7 +17090,6 @@ h2.tech-title {
 
 .external-products .product-card::before {
   content: "";
-  position: absolute;
   inset: 0;
   background: linear-gradient(135deg, #dc3545, transparent);
   opacity: 0;
