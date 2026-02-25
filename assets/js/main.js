@@ -461,6 +461,35 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+
+  // Select all menu items having submenu
+  const dropdownItems = document.querySelectorAll(
+    ".vl-main-menu li.has-dropdown > a"
+  );
+
+  dropdownItems.forEach(function (item) {
+
+    // check agar already icon exist karta hai (Fire Suppression wala)
+    if (!item.querySelector(".fa-angle-right") &&
+        !item.querySelector(".fa-angle-down")) {
+
+      // create span
+      const span = document.createElement("span");
+
+      // create icon
+      const icon = document.createElement("i");
+      icon.className =
+        "fa-solid fa-angle-right d-xl-inline d-none";
+
+      span.appendChild(icon);
+
+      // append icon
+      item.appendChild(span);
+    }
+  });
+
+});
 
 document.addEventListener('DOMContentLoaded', function () {
   new Swiper('.serviceSlider', {
@@ -479,4 +508,31 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+
+  new Swiper(".premium-products .swipers", {
+    wrapperClass: "swipers-wrapper",
+    slideClass: "swiper-slide",
+
+    slidesPerView: 3,
+    spaceBetween: 24,
+    loop: true,
+
+    centeredSlides: false,   // ✅ correct property
+    watchOverflow: true,
+    grabCursor: true,
+
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+
+    breakpoints: {
+      0: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      992: { slidesPerView: 3 }
+    }
+  });
+
+});
 

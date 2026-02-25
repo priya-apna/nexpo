@@ -3799,7 +3799,7 @@ img {
 .vl-blog-1-area .vl-blog-1-item .vl-blog-1-content .vl-blog-1-title a {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s24);
+  font-size: var(--ztc-font-size-font-s20);
   font-style: normal;
   font-weight: var(--ztc-weight-bold);
   line-height: 24px;
@@ -5756,7 +5756,7 @@ ul.header-links li i {
 .homepage1-body .vl-main-menu ul > li > a {
     color: var(--ztc-text-text-4);
     font-family: var(--ztc-family-font1);
-    font-size: var(--ztc-font-size-font-s18);
+    font-size: 20px;
     display: inline-block;
     position: relative;
     transition: 0.4s;
@@ -5769,7 +5769,7 @@ ul.header-links li i {
 .homepage1-body .vl-main-menu ul > li .sub-menu {
   position: absolute;
   top: 201%;
-  width: 220px;
+  width: 300px;
   left: 0;
   background: var(--ztc-bg-bg-2);
   padding: 12px 20px 24px;
@@ -15654,7 +15654,7 @@ section.statx-section {
 }
 .camersrolls img {
     object-fit: cover;
-    height: 400px;
+    height: 255px;
     width: 100%;
     object-position: top;
     margin-top: 40px;
