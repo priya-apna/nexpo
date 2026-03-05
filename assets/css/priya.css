@@ -15654,7 +15654,7 @@ section.statx-section {
 }
 .camersrolls img {
     object-fit: cover;
-    height: 255px;
+    height: 450px;
     width: 100%;
     object-position: top;
     margin-top: 40px;
@@ -17014,10 +17014,10 @@ section.services-inovations {
   box-shadow: 0 15px 40px rgba(0,0,0,0.1);
   transition: all 0.4s ease;
 }
-.product-card:hover {
+/* .product-card:hover {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 25px 60px rgba(255,122,0,0.25);
-}
+} */
 .product-card img {
   max-width: 100%;
 }
