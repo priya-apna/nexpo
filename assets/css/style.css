@@ -1659,8 +1659,9 @@ padding:0;
 .feature-list li {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: 500;
+    padding-left: revert-layer;
     margin-bottom: 12px;
 }
 ul.benefits li {
@@ -1677,6 +1678,16 @@ ul.benefits li {
   width:100%;
   object-fit:cover;
   object-position:top;
+}
+.designed-grounds{
+  font-weight:600;
+  font-size:20px;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+.earths-studys {
+    font-size: 22px;
+    padding-bottom: 20px;
 }
 .feature-list i {
     background: #143c76;
