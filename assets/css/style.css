@@ -1552,7 +1552,9 @@ z-index:2;
 height:120px;
 padding-top:15px;
 }
-
+.sidebar .btn-danger {
+    background-color: #143c76;
+}
 .contacts-section .submit-btn{
 background:#e5e5e5;
 border:none;
@@ -1565,4 +1567,126 @@ width:100%;
 }
 .service-content {
     padding-right: 10px;
+}
+.lightings-mains .sidebar{
+position: sticky;
+top: 120px;
+}
+.lightings-mains h3, .lightings-mains h4 {
+    color: #143c76 !important;
+    font-family: var(--ztc-family-font1);
+    font-size: 32px;
+    font-style: normal;
+    text-align: left;
+    font-weight: var(--ztc-weight-bold);
+    line-height: 52px;
+}
+.process-cards {
+    margin-top: 27px;
+}
+.lightings-mains .feature-list li::before{
+  display:none;
+}
+
+.lightings-mains .sidebar-box{
+background:#f3f3f3;
+padding:20px;
+border-radius:8px;
+margin-bottom:20px;
+}
+
+.lightings-mains .search-box input{
+border-radius:6px 0 0 6px;
+}
+
+.lightings-mains .search-box button{
+border-radius:0 6px 6px 0;
+}
+
+.lightings-mains .service-list{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.lightings-mains .service-list li{
+background:#fff;
+padding:12px 15px;
+margin-bottom:8px;
+border-radius:6px;
+display:flex;
+justify-content:space-between;
+cursor:pointer;
+}
+
+.lightings-mains .call-btn{
+display:inline-block;
+background:#143c76;
+color:#fff;
+padding:10px 20px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.lightings-mains .process-box{
+border:1px solid #ddd;
+padding:20px;
+border-radius:8px;
+background:#fff;
+}
+
+.lightings-mains .industry-grid div {
+    background: #f3f3f3;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-right: 12px;
+    border-radius: 6px;
+    width: 48%;
+    /* margin: 0 3px; */
+}
+.section-title{
+font-weight:700;
+margin-bottom:20px;
+}
+.lightings-mains .process-box h6 {
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.feature-list{
+list-style:none;
+padding:0;
+}
+.feature-list li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+ul.benefits li {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.sidebar-box h6 {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+.currents-mains{
+  height:550px;
+  width:100%;
+  object-fit:cover;
+  object-position:top;
+}
+.feature-list i {
+    background: #143c76;
+    color: #fff;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    font-size: 13px;
 }
