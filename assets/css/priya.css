@@ -17077,24 +17077,26 @@ h2.tech-title {
 
 
 .external-products .product-card {
-  background: #ffffff;
-  border-radius: 18px;
-  padding: 20px;
-  text-align: center;
-  height: 100%;
-  transition: all 0.4s ease;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
-  position: relative;
-  overflow: hidden;
+    background: #fff;
+    /* border-radius: 18px; */
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 60px;
+    height: 100%;
+    border-bottom-right-radius: 60px;
+    transition: all 0.4s ease;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
 }
 
-.external-products .product-card::before {
+/* .external-products .product-card::before {
   content: "";
   inset: 0;
   background: linear-gradient(135deg, #dc3545, transparent);
   opacity: 0;
   transition: 0.4s;
-}
+} */
 
 .external-products .product-card:hover::before {
   opacity: 0.08;
@@ -17122,12 +17124,12 @@ h2.tech-title {
 }
 
 .external-products .btn-view {
-  background: #dc3545;
-  color: #fff;
-  font-size: 13px;
-  padding: 6px 16px;
-  border-radius: 30px;
-  transition: 0.3s;
+    background: #143c76;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 36px;
+    border-radius: 30px;
+    transition: 0.3s;
 }
 
 .external-products .btn-view:hover {
