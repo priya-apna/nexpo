@@ -1803,3 +1803,6 @@ border-color:#eee;
 background:#f5f5f5;
 transition:0.3s;
 }
+.feature-box p {
+    text-align: left;
+}
