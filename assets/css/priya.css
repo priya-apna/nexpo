@@ -1708,8 +1708,9 @@ img {
 }
 
 .service-main-details-area {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 40px !important;
 }
 .service-main-details-area .service-main-sidebar {
   position: sticky;

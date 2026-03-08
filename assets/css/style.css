@@ -1,4 +1,6 @@
-
+body{
+  padding:0 !important;
+}
 .social {
   display: flex;
   /* justify-content: center; */
@@ -1798,11 +1800,112 @@ font-weight:600;
 padding:14px;
 border-color:#eee;
 }
-
+.service-card h6 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+.service-card p {
+    text-align: left;
+}
+.bnt-area1 {
+    text-align: justify;
+}
 .producters-section .custom-table tbody tr:hover{
 background:#f5f5f5;
 transition:0.3s;
 }
 .feature-box p {
     text-align: left;
+}
+
+
+.earth-solution{
+background:#f7f8fb;
+}
+
+.section-title{
+font-weight:700;
+color:#1c3b6d;
+margin-bottom:20px;
+}
+
+.earth-text{
+font-size:14px;
+line-height:1.8;
+text-align:justify;
+}
+
+/* IMAGE BOX */
+
+.earth-img-box{
+position:relative;
+}
+
+.main-earth-img{
+border-radius:10px;
+box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* BADGE */
+
+.project-badge{
+position:absolute;
+top:20px;
+left:20px;
+background:#1c3b6d;
+color:#fff;
+padding:18px;
+border-radius:6px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.project-badge h3{
+margin:0;
+font-weight:700;
+}
+
+/* TERRA */
+
+.terra-title{
+font-weight:700;
+}
+
+.title-divider{
+width:60px;
+height:3px;
+background:#ff4d4d;
+margin:12px auto;
+}
+
+/* IMAGE */
+
+.terra-img-box img{
+max-width:280px;
+filter:drop-shadow(0 15px 25px rgba(0,0,0,0.2));
+}
+
+/* FEATURES */
+
+.feature-list{
+margin-top:20px;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 12px 16px;
+    border-left: 4px solid #143c76;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.feature-item:hover{
+transform:translateX(6px);
+}
+
+.terra-text{
+font-size:14px;
+line-height:1.8;
 }
