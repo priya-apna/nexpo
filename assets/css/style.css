@@ -1701,3 +1701,29 @@ ul.benefits li {
     margin-right: 12px;
     font-size: 13px;
 }
+.lightning-section{
+background:#f7f7f7;
+}
+
+.lightning-section .point-box{
+background:#fff;
+padding:18px;
+border-left:4px solid var(--ztc-text-text-4);
+border-radius:6px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+font-size:14px;
+transition:0.3s;
+}
+
+.lightning-section .point-box:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+}
+.lightning-section h3{
+    color:var(--ztc-bg-bg-3);
+}
+.lighters {
+    height: 479px;
+    object-fit: fill;
+}
