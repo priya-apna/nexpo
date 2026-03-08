@@ -61,7 +61,45 @@ body{
   position: relative;
   z-index: 1;
 }
+.company-history-section{
+background:#f6f7fb;
+}
 
+/* BOX */
+
+.company-history-box{
+background:#ffffff;
+padding:40px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+border-left:5px solid #143c76;
+transition:0.3s;
+}
+
+/* HOVER */
+
+.company-history-box:hover{
+transform:translateY(-6px);
+box-shadow:0 18px 40px rgba(0,0,0,0.15);
+}
+
+/* TITLE */
+
+.history-heading{
+font-weight:700;
+color:#0f2a44;
+margin-bottom:20px;
+}
+
+/* TEXT */
+
+.history-text{
+font-size:15px;
+line-height:1.8;
+color:#555;
+text-align:justify;
+margin-bottom:15px;
+}
 .social a::after {
   position: absolute;
   content: "";
