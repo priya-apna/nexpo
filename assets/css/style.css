@@ -2067,3 +2067,6 @@ line-height:1.8;
   padding: 50px;
   border-radius: 10px;
 }
+.spd-clean h2 {
+    color: #000 !important;
+}
