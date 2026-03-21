@@ -1106,7 +1106,7 @@ transition:.3s;
 }
 
 .why-box:hover{
-background:#28a745;
+/* background:#28a745; */
 transform:scale(1.05);
 }
 
@@ -1946,4 +1946,64 @@ transform:translateX(6px);
 .terra-text{
 font-size:14px;
 line-height:1.8;
+}
+.spd-img-large {
+  height: 420px;
+  object-fit: cover;
+}
+
+.spd-img-offset {
+  height: 320px;
+  object-fit: cover;
+  transform: translateY(30px);
+}
+
+/* mini cards */
+.spd-mini-card {
+  background: #f1f5ff;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* feature cards */
+.spd-feature-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+.spd-feature-card:hover {
+  transform: translateY(-8px);
+}
+
+/* types */
+.spd-type {
+  padding: 30px;
+  border-radius: 12px;
+  color: #fff;
+}
+.type1 { background: #0d6efd; }
+.type2 { background: #198754; }
+.type3 { background: #ffc107; color: #000; }
+
+/* applications */
+.spd-app {
+  background: #eef4ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* benefits */
+.spd-benefits {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+/* CTA */
+.spd-cta {
+  background: linear-gradient(135deg,#0d6efd,#00c6ff);
+  border-radius: 15px;
 }
