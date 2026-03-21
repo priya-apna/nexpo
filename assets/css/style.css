@@ -1912,7 +1912,7 @@ font-weight:700;
 .title-divider{
 width:60px;
 height:3px;
-background:#ff4d4d;
+background:#143c76;
 margin:12px auto;
 }
 
@@ -1984,7 +1984,7 @@ line-height:1.8;
   border-radius: 12px;
   color: #fff;
 }
-.type1 { background: #0d6efd; }
+.type1 { background: #143c76; }
 .type2 { background: #198754; }
 .type3 { background: #ffc107; color: #000; }
 
@@ -2029,7 +2029,7 @@ line-height:1.8;
 }
 
 .feature-card-img:hover .feature-overlay {
-  background: rgba(13,110,253,0.85);
+  background: #143c76;
 }
 /* benefits */
 .spd-benefits {
@@ -2040,6 +2040,6 @@ line-height:1.8;
 
 /* CTA */
 .spd-cta {
-  background: linear-gradient(135deg,#0d6efd,#00c6ff);
+  background: linear-gradient(135deg,#143c76,#143c76);
   border-radius: 15px;
 }
