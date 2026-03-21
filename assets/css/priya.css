@@ -17310,3 +17310,356 @@ h2.tech-title {
   font-size: 1.05rem;
   line-height: 1.8;
 }
+.solutions-iner{
+    padding:80px 0;
+}
+
+/* IMAGE AREA */
+.solutions-iner .image-box{
+    position:relative;
+}
+
+.solutions-iner .main-img{
+    width:100%;
+    border-radius:10px;
+}
+
+.solutions-iner .small-img{
+    position:absolute;
+    top:40px;
+    right:-40px;
+    width:200px;
+    border-radius:10px;
+    border:5px solid #fff;
+}
+
+/* RED SHAPE */
+.solutions-iner .bg-shape{
+    position:absolute;
+    top:-20px;
+    left:-20px;
+    width:80%;
+    height:80%;
+    background:#143c76;
+    z-index:-1;
+    border-radius:20px;
+}
+
+/* EXPERIENCE BOX */
+.solutions-iner .exp-box{
+    position:absolute;
+    bottom:-20px;
+    left:20px;
+    background:#143c76;
+    color:#fff;
+    padding:20px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+/* TEXT */
+.solutions-iner .sub-title{
+    color:#143c76;
+    font-weight:600;
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+.solutions-iner h2{
+    font-weight:700;
+}
+.benefits-section{
+    padding:90px 0;
+    background:linear-gradient(135deg,#0d1b2a,#1b263b);
+    color:#fff;
+}
+
+/* HEADING */
+.benefits-section h2{
+    font-weight:700;
+}
+
+/* LEFT TEXT */
+.benefits-left p{
+    color:#cbd5e1;
+}
+
+/* BENEFIT CARD */
+.benefit-card{
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    padding:20px 20px 20px 70px;
+    margin-bottom:20px;
+    position:relative;
+    transition:0.3s;
+    border:1px solid rgba(255,255,255,0.08);
+}
+
+/* NUMBER */
+.benefit-card span{
+    position:absolute;
+    left:20px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:22px;
+    font-weight:700;
+    color:#ff6a00;
+}
+
+/* HOVER */
+.benefit-card:hover{
+    transform:translateY(-8px);
+    background:rgba(255,255,255,0.08);
+    box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+
+/* IMAGE SIDE */
+.benefits-img{
+    border-radius:20px;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* SUBTEXT */
+.benefits-sub{
+    margin-bottom:30px;
+    color:#adb5bd;
+}
+.solutions-iner  ul.list {
+    list-style: none;
+}
+.solutions-iner .list{
+    margin-top:20px;
+}
+.solutions-iner .left-boxs{
+  padding-right:20px;
+
+}
+.solutions-iner .list li{
+    margin-bottom:10px;
+}
+
+/* BUTTON */
+.solutions-iner .btn-custom{
+    background:#143c76;
+    color:#fff;
+    padding:10px 25px;
+    border:none;
+}
+
+.importance-section{
+    background:#f4f7fb;
+    padding:80px 0;
+}
+
+/* HEADING */
+.importance-heading h2{
+    font-weight:700;
+    color:#0d1b2a;
+}
+
+.importance-heading p {
+    color: #6c757d;
+    margin-top: 15px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* CARD */
+.imp-card{
+    background:#fff;
+    border-radius:15px;
+    padding:30px 20px;
+    text-align:center;
+    transition:0.3s;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+.imp-card::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:0;
+    top:0;
+    left:0;
+    background:#ff6a00;
+    opacity:0.05;
+    transition:0.4s;
+}
+
+.imp-card:hover::before{
+    height:100%;
+}
+
+.imp-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+.solution-section{
+    padding:80px 0;
+    background:#f4f7fb;
+}
+
+/* CARD */
+.solution-card{
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+    position:relative;
+}
+
+.solution-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* IMAGE */
+.solution-img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+/* RED CONTENT */
+.solution-content {
+    background: #143c76;
+    color: #fff;
+    padding: 25px;
+    position: relative;
+}
+/* NUMBER */
+.solution-number{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size:40px;
+    font-weight:700;
+    opacity:0.3;
+}
+
+/* ICON */
+.solution-icon{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+/* TITLE */
+.solution-content h5{
+    font-weight:700;
+    margin-top:10px;
+}
+
+/* TEXT */
+.solution-content p{
+    font-size:14px;
+    margin-top:10px;
+}
+
+/* MAIN TEXT */
+.solution-intro{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.solution-intro h2{
+    font-weight:700;
+    color:#0d1b2a;
+}
+
+
+/* ICON */
+.imp-icon{
+    font-size:35px;
+    color:#ff6a00;
+    margin-bottom:15px;
+}
+
+/* TEXT */
+.imp-card p{
+    margin:0;
+    color:#333;
+    font-weight:500;
+}
+
+/* BOTTOM TEXT */
+.imp-bottom{
+    margin-top:50px;
+    text-align:center;
+    font-weight:600;
+    color:#0d1b2a;
+}
+
+/* GRID FIX */
+.imp-row {
+    row-gap: 25px;
+    justify-content: center;
+}
+
+/* FEATURE CARDS */
+.feature-card{
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    transition:0.3s;
+    height:100%;
+}
+.feature-card:hover{
+    background:var(--primary);
+    color:#fff;
+    transform:translateY(-8px);
+}
+.feature-icon{
+    font-size:28px;
+    color:var(--accent);
+}
+
+/* APPLICATION CARDS */
+.app-card{
+    border-radius:15px;
+    overflow:hidden;
+    position:relative;
+}
+.app-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+.app-overlay{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background:linear-gradient(transparent,rgba(0,0,0,0.8));
+    color:#fff;
+    padding:15px;
+    font-weight:600;
+}
+
+/* BENEFITS */
+.benefit-box{
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:15px;
+    border-left:5px solid var(--accent);
+    transition:0.3s;
+}
+.benefit-box:hover{
+    transform:translateX(10px);
+}
+
+/* WHY US */
+.why-box{
+    color:#000;
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+}
