@@ -2181,7 +2181,13 @@ line-height:1.8;
       position: relative;
       overflow: hidden;
     }
-
+    .solution-section {
+    padding: 40px 0 40px 0;
+    background: #f4f7fb;
+}
+.solution-intro p {
+    padding-top: 17px;
+}
     .grounding-section .mini-card span {
       display: inline-block;
       background: #ff6b00;
