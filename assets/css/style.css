@@ -2062,7 +2062,7 @@ line-height:1.8;
 }
 
 .spd-cta {
-  background: linear-gradient(135deg,#0d6efd,#00c6ff);
+  /* background: linear-gradient(135deg,#0d6efd,#00c6ff); */
   color: #fff;
   padding: 50px;
   border-radius: 10px;
