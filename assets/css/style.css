@@ -2333,6 +2333,7 @@ line-height:1.8;
 .energy-mains .custom-card img{
  height:300px;
  object-fit:cover;
+ width: 100%;
 }
 /* List style */
 .custom-list li{
