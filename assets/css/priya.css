@@ -17312,10 +17312,9 @@ h2.tech-title {
   font-size: 1.05rem;
   line-height: 1.8;
 }
-.solutions-iner{
-    padding:80px 0;
+.solutions-iner {
+    padding: 40px 0;
 }
-
 /* IMAGE AREA */
 .solutions-iner .image-box{
     position:relative;
