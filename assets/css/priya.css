@@ -17668,3 +17668,250 @@ h2.tech-title {
     border-radius:20px;
     text-align:center;
 }
+
+
+    .static-bars {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0d6efd 100%);
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+      padding: 90px 0 70px;
+    }
+
+    .static-bars::before {
+      content: "";
+      position: absolute;
+      top: -80px;
+      right: -80px;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .static-bars::after {
+      content: "";
+      position: absolute;
+      bottom: -100px;
+      left: -100px;
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .section-titles {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 12px;
+    }
+
+    .section-subtitle {
+      font-size: 1rem;
+      color: #64748b;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.18);
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .hero-title {
+      font-size: 2.8rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 18px;
+    }
+
+    .hero-text {
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.9);
+      line-height: 1.8;
+    }
+
+    .hero-card,
+    .content-card,
+    .benefit-card,
+    .spec-card,
+    .image-card,
+    .tech-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: var(--card-shadow);
+      border: 1px solid rgba(226, 232, 240, 0.7);
+    }
+
+    .hero-card {
+      padding: 18px;
+    }
+
+    .hero-card img,
+    .image-card img,
+    .tech-image {
+      width: 100%;
+      border-radius: 16px;
+    }
+
+    .section-space {
+      padding: 80px 0;
+    }
+
+    .content-card,
+    .tech-card,
+    .spec-card {
+      padding: 30px;
+      height: 100%;
+    }
+
+    .benefit-card {
+      padding: 26px;
+      height: 100%;
+      transition: 0.3s ease;
+    }
+
+    .benefit-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .icon-wrap {
+      width: 58px;
+      height: 58px;
+      border-radius: 14px;
+      background: rgba(13, 110, 253, 0.1);
+      color: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    .card-title-custom {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 14px;
+    }
+
+    .custom-list {
+      padding-left: 18px;
+      margin-bottom: 0;
+    }
+
+    .custom-list li {
+      margin-bottom: 10px;
+      line-height: 1.7;
+    }
+
+    .image-card {
+      padding: 16px;
+      height: 100%;
+    }
+
+    .image-caption {
+      text-align: center;
+      font-weight: 600;
+      color: var(--dark);
+      margin-top: 14px;
+      font-size: 1rem;
+    }
+
+    .spec-table {
+      margin-bottom: 0;
+      border-color: var(--border);
+      min-width: 1100px;
+    }
+
+    .spec-table thead th {
+      background: #0f172a;
+      color: #fff;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 14px;
+      padding: 14px 10px;
+      white-space: nowrap;
+    }
+
+    .spec-table tbody td,
+    .spec-table tbody th {
+      vertical-align: middle;
+      font-size: 14px;
+      padding: 12px 10px;
+    }
+
+    .spec-table tbody th {
+      background: #f8fafc;
+      color: var(--dark);
+      white-space: nowrap;
+    }
+
+    .gradient-box {
+      background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+      border: 1px solid #dbeafe;
+      border-radius: 18px;
+      padding: 28px;
+      height: 100%;
+    }
+
+    .mini-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 16px;
+    }
+
+    .highlight-strip {
+      background: linear-gradient(90deg, #0d6efd, #1d4ed8);
+      color: #fff;
+      border-radius: 22px;
+      padding: 30px;
+    }
+
+    .highlight-strip h3 {
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .table-responsive {
+      border-radius: 18px;
+    }
+
+    .small-note {
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    @media (max-width: 991.98px) {
+      .hero-title {
+        font-size: 2.2rem;
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .static-bars{
+        padding: 70px 0 50px;
+      }
+
+      .hero-title {
+        font-size: 1.85rem;
+      }
+
+      .section-title {
+        font-size: 1.7rem;
+      }
+
+      .content-card,
+      .tech-card,
+      .spec-card,
+      .benefit-card {
+        padding: 22px;
+      }
+    }
