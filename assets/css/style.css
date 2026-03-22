@@ -2354,6 +2354,9 @@ line-height:1.8;
 .type-electrics {
     padding: 60px 80px 60px 80px;
 }
+.fire-suggest ul li {
+    padding: 0px 0 20px 0;
+}
 .fire-suggest img{
   height:450px;
   object-fit:cover;
