@@ -17319,7 +17319,9 @@ h2.tech-title {
 .solutions-iner .image-box{
     position:relative;
 }
-
+.chosen-fire {
+    padding-bottom: 100px !important;
+}
 .solutions-iner .main-img{
     width:100%;
     border-radius:10px;
