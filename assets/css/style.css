@@ -2335,6 +2335,18 @@ line-height:1.8;
  object-fit:cover;
  width: 100%;
 }
+.solutions-iner img{
+  height:490px;
+  width:100%;
+  object-fit:cover;
+}
+.benefits-section img {
+    height: 550px;
+    object-fit: cover;
+}
+.why-box {
+    padding: 60px 0 90px 0;
+}
 /* List style */
 .custom-list li{
     margin-bottom: 8px;

@@ -17399,14 +17399,14 @@ h2.tech-title {
 }
 
 /* NUMBER */
-.benefit-card span{
-    position:absolute;
-    left:20px;
-    top:50%;
-    transform:translateY(-50%);
-    font-size:22px;
-    font-weight:700;
-    color:#ff6a00;
+.benefit-card span {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
 }
 
 /* HOVER */
