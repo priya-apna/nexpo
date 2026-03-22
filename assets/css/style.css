@@ -2347,6 +2347,13 @@ line-height:1.8;
 .why-box {
     padding: 60px 0 90px 0;
 }
+.key-features p {
+    padding: 20px 0;
+    border-bottom: 1px solid #00000024;
+}
+.type-electrics {
+    padding: 60px 40px 60px 40px;
+}
 /* List style */
 .custom-list li{
     margin-bottom: 8px;
