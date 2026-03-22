@@ -17506,7 +17506,9 @@ h2.tech-title {
     padding:40px 0;
     background:#f4f7fb;
 }
-
+.solution-intro h2 {
+    padding-bottom: 20px;
+}
 /* CARD */
 .solution-card{
     border-radius:15px;
