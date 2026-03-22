@@ -2354,6 +2354,11 @@ line-height:1.8;
 .type-electrics {
     padding: 60px 80px 60px 80px;
 }
+.fire-suggest img{
+  height:450px;
+  object-fit:cover;
+  width:100%;
+}
 /* List style */
 .custom-list li{
     margin-bottom: 8px;
