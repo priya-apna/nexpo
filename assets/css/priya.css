@@ -17367,8 +17367,9 @@ h2.tech-title {
     letter-spacing:1px;
 }
 
-.solutions-iner h2{
-    font-weight:700;
+.solutions-iner h2 {
+    font-weight: 700;
+    padding-bottom: 17px;
 }
 .benefits-section{
     padding:90px 0;
